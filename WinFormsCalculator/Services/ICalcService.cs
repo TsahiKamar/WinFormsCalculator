@@ -11,7 +11,7 @@ namespace WinFormsCalculator.Services
     {
         public List<Calc> GetCalcHistory();
         Task<List<Calc>> GetAsyncCalcHistory();
-        public Calc AddNewCalc(Calc request);//Task<HttpResponseMessage>
+        public Calc AddNewCalc(Calc request);
 
     }
 }
